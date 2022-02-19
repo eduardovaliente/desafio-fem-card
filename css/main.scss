@@ -1,0 +1,23 @@
+/* reset */
+@import "./partials/reset";
+@import "./partials/vars";
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: $darkcyan;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 325px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
